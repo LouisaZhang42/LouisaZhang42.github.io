@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="j5ZmpRp6-ZeLuTr-M8DbzuULJBChS9HBV_7bDVQt9u4" />
+    <title>In-vehicle Information System</title>
+
+    <link rel="icon" type="image/x-icon" href="./icons/logo031611.svg">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/swiper-bundle.min.css">
+    <style type="text/css">
+        .nav .active {
+            background-color: rgb(37, 18, 255);
+            color: #fff;
+        }
+    </style>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="custom.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/logo-text.svg">
+
+
+    <!-- Scripting -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/df18b2a205.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!--自定义配置文件-->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        opred: '#ED1D24',
+                        opred2: '#FB302F',
+                        opred3: '#FF5439',
+                        opyellow: '#ffbb00',
+                        oplightpink: '#F6D0FF',
+                        opmainblue: '#082FFF',
+                        oplightblue: '#C9DCFF',
+                        opgrey: "#747474",
+                        opgrey2: "#525252",
+                        opgrey3: "#F7F7F7",
+                        opgrey4:"#BFBFBF",
+                        opdark: "#1E1E1E",
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="custom__cursor__outer"></div>
+    <div class="custom__cursor__inner"></div>
+
+
+
+    <!--导航-->
+    <nav class="py-5 px-24 sticky top-0 backdrop-blur-lg bg-white/50 showout">
+        <div class="flex justify-between px-16">
+            <div><a href="index.html" class="flex logo">
+                <img src="./icons/logo031622.svg" alt="" draggable="false">
+                </a>
+            </div>
+            <div class="space-x-1">
+                <a href="index.html"
+                    class="caption py-4 px-2 transition duration-500 ease-in-out hover:text-opred"><span>Work</span></a>
+                <a href="about.html"
+                    class="caption py-4 px-2 transition duration-500 ease-in-out hover:text-opred"><span>About</span></a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div>
+        <!--正文-->
+        <section class="px-52">
+            <div class="container px-12 mx-auto">
+
+                <!--分割线-->
+                <div class="divide-y divide-white container my-1" id="关于项目">
+                    <div><p class="invisible">&nbsp</p></div>
+                </div>
+                <!--Main-->
+                <div class="flex justify-between text-left my-10">
+                    <div class="flex w-1/2">
+                        <p class="text-3xl pfsemibold">患者洞察信息系统</p>
+                    </div>
+                    <div class="flex w-1/2">
+                        <p class="text-xl pfregular leading-relaxed">
+                            供肿瘤学家使用的内部电子病历患者洞察信息系统，以提高临床决策效率。
+                            <br><span class="text-sm text-opgrey2 pfregular mb-2 underline">实习项目</span>
+                            <span class="text-sm text-opgrey2 pfregular mb-2"> · </span>
+                            <span class="text-sm text-opgrey2 pfregular mb-2 underline">B端信息系统设计</span>
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pt-5">
+                    <div class="col-md-10">
+                        <div class="col-12 px-3 py-4">
+                            <div class="row d-flex align-items-center" id="contentFather">
+                                <div class="col-12 text-center pb-4">
+                                    <img class="img-fluid max-width: 100%; height: auto;" src="./images/MZ/1.png">
+                                </div>
+                                <div class="flex justify-between text-left my-20">
+                                    <div class="flex w-2/3">
+                                        <p><span class="text-2xl pfsemibold">✍🏻关于项目</span>
+                                            <br><br><span class="text-m pfregular">
+                                            放射治疗（RT）的前期准备在很大程度上依赖于患者的数字档案。然而，医生通常在收集患者数据，阅读存储在不同系统中的报告上的时间，约为每位患者 30 分钟或更长时间。
+                                            在进行了调研以后，我们重新整理了信息层级与页面布局。最总，我们的设计得到了客户的高度评价，并将收集阅读单个患者信息的时间从30分钟下降到3分钟，帮助放射专家以 300% 的速度诊断和识别危险患者。
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="flex w-1/4">
+                                        <p class="pfregular leading-relaxed">
+                                        <ul class="my-list">
+                                            <span class="text-opgrey text-sm pfregular">Timeline:</span>
+                                            <br><span class="text-m pfregular">2023年冬季</span>
+                                            <br><br><span class="text-opgrey text-sm pfregular">Background</span>
+                                            <br><span class="text-m pfregular">实习内容</span>
+                                            <br><br><span class="text-opgrey text-sm pfregular">My Role:</span>
+                                            <br><span class="text-m pfregular">UX设计师</span>
+                                            <br><br><span class="text-opgrey text-sm pfregular">Tools:</span>
+                                            <br><span class="text-m pfregular">Figma,Figjam</span>
+                                        </ul>
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                    <!--分割线-->
+                    <div class="divide-y divide-gray-400 container" id="项目背景">
+                        <div><p class="invisible">&nbsp</p></div>
+                        <div><p class="invisible">&nbsp</p></div>
+                    </div>
+                    <!--Background-->
+                    <div class="flex justify-between text-left my-10">
+                        <div class="flex w-1/3">
+                            <p class="text-2xl pfsemibold">📊项目背景</p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <p class="text-m pfregular leading-relaxed">
+                                <span class="text-2xl text-opmainblue underline pfsemibold leading-relaxed">成果：将一名患者的信息传达时间从30分钟减少到3分钟🚀</span>
+                                <br><br>我们的客户是美国两大癌症护理医院之一： Memorial Sloan Kettering Cancer Center(MSK)。
+                                作为实习生，我参与设计了其内部信息系统WARP系统，主要负责客户数据洞察系统相关页面。该系统地集成了患者的不同数字档案和纵向患者记录，帮助医生高效地查找和阅读患者的文档。
+                                <img src="./images/MZ/BG.png">
+                                <br><br>我们的三个主要用户的最终用户测试表明，收集信息和阅读单个患者报告的时间<span class="text-pfsemibole text-opmainblue">从30分钟下降到3分钟</span>。 它大大减少了医疗团队的数据收集和汇总负担，
+                                使临床决策能够根据患者数据做出。它帮助我们的放射专家以 <span class="text-pfsemibole text-opmainblue">300% 的速度</span>诊断和识别危险患者。
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--分割线-->
+                    <div class="divide-y divide-gray-400 container" id="设计挑战陈述">
+                        <div><p class="invisible">&nbsp</p></div>
+                        <div><p class="invisible">&nbsp</p></div>
+                    </div>
+                    <!--Background-->
+                    <div class="flex justify-between text-left my-10">
+                        <div class="flex w-1/3">
+                            <p class="text-2xl pfsemibold">📑设计挑战陈述</p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <p class="text-m pfregular leading-relaxed">
+                                <span class="text-xl pfsemibold leading-relaxed">①放射治疗（RT）治疗的准备在很大程度上依赖于患者的数字档案。</span>
+                                <br><br>一半的癌症患者将接受放射治疗（RT），该放射治疗使用复杂的算法和机器将高度精确的辐射传递到患者的目标区域。医生需要通过患者的档案来制定定制的治疗计划。
+                                <br><br><span class="text-xl pfsemibold leading-relaxed">②RT治疗有三类利益相关者：肿瘤学家，物理学家和治疗师。</span>
+                                <img src="./images/MZ/LY.png">
+                                <span class="text-2xl pfsemibold underline text-opmainblue leading-relaxed">挑战：减少30分钟每人的信息传达时间</span>
+                                <br><br>目前，他们通常花费在收集患者数据和阅读存储在不同系统中的报告上的时间约为每位患者 30 分钟或更长时间。
+                                <img src="./images/MZ/YD.png">
+                            </p>
+                        </div>
+                    </div>
+                    
+                    
+                    <!--分割线-->
+                    <div class="divide-y divide-gray-400 container" id="用户研究">
+                        <div><p class="invisible">&nbsp</p></div>
+                        <div><p class="invisible">&nbsp</p></div>
+                    </div>
+                    <!--Background-->
+                    <div class="flex justify-between text-left my-10">
+                        <div class="flex w-1/3">
+                            <p class="text-2xl pfsemibold">📈用户研究</p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <p class="text-m pfregular leading-relaxed">
+                                根据设计挑战的目标，我明确了专家访谈的目的，并制定了访谈大纲。
+                                <img src="./images/MZ/FT.png">
+                            </p>
+                        </div>
+                    </div>
+                    
+                    
+                    <!--分割线-->
+                    <div class="divide-y divide-gray-400 container" id="设计洞察">
+                        <div><p class="invisible">&nbsp</p></div>
+                        <div><p class="invisible">&nbsp</p></div>
+                    </div>
+                    <!--Background-->
+                    <div class="flex justify-between text-left my-10">
+                        <div class="flex w-1/3">
+                            <p class="text-2xl pfsemibold">📈设计洞察</p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <p class="text-m pfregular leading-relaxed">
+                                根据远程视频访谈，我们发现：
+                                <br>在RT处理过程中，三个利益相关者<strong>接力</strong>查看患者的不同文件并做出决定。
+                                <img src="./images/MZ/YH.png">
+                                <br><br>梳理了用户旅程后，我们得出了三个导致流程低效的关键问题：
+                                <span class="bg-oplightblue"><strong><br><br>1.无法快速查找和阅读所需患者的信息
+                                <br>2.历史文献杂乱无章，阅读起来不直观
+                                <br>3.难以在患者档案之间切换</span></strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-24 text-center">
+                        <a href="./images/MZ/LC.png" target="_blank">
+                          <img class="img-fluid max-width: 100%; height: auto; zoom-on-hover" src="./images/MZ/LC.png">
+                        </a>
+                    </div>
+
+
+                    <!--分割线-->
+                    <div class="divide-y divide-gray-400 container my-10" id="信息架构">
+                        <div><p class="invisible">&nbsp</p></div>
+                        <div><p class="invisible">&nbsp</p></div>
+                    </div>
+                    <!--Background-->
+                    <div class="flex justify-between text-left my-10">
+                        <div class="flex w-1/3">
+                            <p class="text-2xl pfsemibold">📈信息架构</p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <p class="text-m pfregular leading-relaxed">
+                                基于上述关键问题，我们重新梳理了信息结构。
+                                我将原始数据转换为信息结构，并对每个部分进行评分，以确定哪些信息对各个用户都更有价值，
+                                并据此重新设计页面结构。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-24 text-center">
+                        <a href="./images/MZ/XX.png" target="_blank">
+                          <img class="img-fluid max-width: 100%; height: auto; zoom-on-hover" src="./images/MZ/XX.png">
+                        </a>
+                    </div>
+
+
+                    <!--分割线-->
+                    <div class="divide-y divide-gray-400 container my-10" id="概念探索">
+                        <div><p class="invisible">&nbsp</p></div>
+                        <div><p class="invisible">&nbsp</p></div>
+                    </div>
+                    <!--Background-->
+                    <div class="flex justify-between text-left my-10">
+                        <div class="flex w-1/3">
+                            <p class="text-2xl pfsemibold">📈概念探索</p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <p class="text-m pfregular leading-relaxed">
+                                在此之后，我基于信息架构探索了信息系统的布局，最终进行了设计的聚焦。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-24 text-center">
+                        <a href="./images/MZ/XZ.png" target="_blank">
+                          <img class="img-fluid max-width: 100%; height: auto; zoom-on-hover" src="./images/MZ/XZ.png">
+                        </a>
+                    </div>
+
+
+                    <!--分割线-->
+                    <div class="divide-y divide-gray-400 container my-10" id="设计与迭代">
+                        <div><p class="invisible">&nbsp</p></div>
+                        <div><p class="invisible">&nbsp</p></div>
+                    </div>
+                    <!--Background-->
+                    <div class="flex justify-between text-left my-10">
+                        <div class="flex w-1/3">
+                            <p class="text-2xl pfsemibold">🎨设计与迭代</p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <p class="text-m pfregular leading-relaxed">
+                                随后，我们对当前和潜在用户进行了大量测试，以确保信息系统设计的可用性。
+                                在具有不同工具经验的 MSK 专家的支持下，我们在此过程中对 10+ 多名用户进行了可用性测试。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-24 text-center">
+                        <a href="./images/MZ/SJ.png" target="_blank">
+                          <img class="img-fluid max-width: 100%; height: auto; zoom-on-hover" src="./images/MZ/SJ.png">
+                        </a>
+                    </div>
+
+                    <!--分割线-->
+                    <div class="divide-y divide-gray-400 container my-10" id="最终交付设计">
+                        <div><p class="invisible">&nbsp</p></div>
+                        <div><p class="invisible">&nbsp</p></div>
+                    </div>
+                    <!--Background-->
+                    <div class="flex justify-between text-left my-10">
+                        <div class="flex w-1/3">
+                            <p class="text-2xl pfsemibold">🎨最终交付设计</p>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="flex justify-between text-left my-16">
+                        <div class="flex w-2/3">
+                            <img class="img-fluid max-width: 100%; height: auto; zoom-on-hover" src="./images/MZ/1.gif"></a>
+                        </div>      
+                        <div class="flex w-1/3">
+                            <p><span class="text-xm  tracking-tight">
+                                <span class="text-opred pfsemibold text-xl"><br>问题1：</span>
+                                <br>无法快速查找和阅读所需患者的信息
+                                <br><br><span class="text-opmainblue pfsemibold text-xl"><br>解决：导航栏</span>
+                                <br>只需单击一下即可访问所需信息
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between text-left my-16">
+                        <div class="flex w-1/3">
+                            <p><span class="text-xm  tracking-tight">
+                                <span class="text-opred pfsemibold text-xl"><br>问题2：</span>
+                                <br>历史文献杂乱无章，阅读起来不直观
+                                <br><br><span class="text-opmainblue pfsemibold text-xl"><br>解决：纵向时间选项卡</span>
+                                <br>在当前和历史患者的文档之间快速导航，通过将文档并排放置来创建更直观的信息检索。
+                            </p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <a href="./images/MZ/2.gif" target="_blank">
+                                <img class="img-fluid max-width: 100%; height: auto; zoom-on-hover" src="./images/MZ/2.gif"></a>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between text-left my-16">
+                        <div class="flex w-2/3">
+                            <a href="./images/MZ/3.gif" target="_blank">
+                                <img class="img-fluid max-width: 100%; height: auto; zoom-on-hover" src="./images/MZ/3.gif"></a>
+                        </div>      
+                        <div class="flex w-1/3">
+                            <p><span class="text-xm  tracking-tight">
+                                <span class="text-opred pfsemibold text-xl"><br>问题3：</span>
+                                <br>难以切换患者资料
+                                <br><br><span class="text-opmainblue pfsemibold text-xl"><br>解决：下拉患者列表</span>
+                                <br>在不同患者的个人资料之间轻松切换并管理日常任务
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between text-left my-16">
+                        <div class="flex w-1/3">
+                            <p><span class="text-xm  tracking-tight">
+                                <span class="text-opmainblue pfsemibold text-xl"><br>亮点1：报告完整视图</span>
+                                <br>改善医生在小型显示器上的沉浸式阅读体验
+                            </p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <a href="./images/MZ/4.gif" target="_blank">
+                                <img class="img-fluid max-width: 100%; height: auto; zoom-on-hover" src="./images/MZ/4.gif"></a>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-between text-left my-16">
+                        <div class="flex w-2/3">
+                            <a href="./images/MZ/5.gif" target="_blank">
+                                <img class="img-fluid max-width: 100%; height: auto; zoom-on-hover" src="./images/MZ/5.gif"></a>
+                        </div>      
+                        <div class="flex w-1/3">
+                            <p><span class="text-xm  tracking-tight">
+                                <span class="text-opmainblue pfsemibold text-xl"><br>亮点2：黑暗模式</span>
+                                <br>使信息系统在黑暗环境中更加友好
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <!--分割线-->
+                    <div class="divide-y divide-gray-400 container" id="总结与反思">
+                        <div><p class="invisible">&nbsp</p></div>
+                        <div><p class="invisible">&nbsp</p></div>
+                    </div>
+                    <!--Background-->
+                    <div class="flex justify-between text-left my-10">
+                        <div class="flex w-1/3">
+                            <p class="text-2xl pfsemibold">📈总结与反思</p>
+                        </div>
+                        <div class="flex w-2/3">
+                            <p class="text-m pfregular leading-relaxed">
+                                <strong><span class="text-opmainblue text-xl">Next Step：</strong></span>
+                                <br>对不同用户的信息优先级, 进行排名和加权可以阐明哪些信息更需要显示。
+                                定制需求将是下一步的探索方案，因为用户的信息优先级不是固定的，而是在不同的处理阶段相应地变化。
+                                为用户提供更多的自由来管理布局和功能是另一种设计假设。
+                                <img src="./images/MZ/NT.png">
+                            </p>
+                        </div>
+                    </div>
+
+            </div>
+        </section>
+
+
+
+
+        <nav class="nav" Style="padding-left: 20px">
+            <div class="shadow-Slate-50 fixed pt-2 pb-2 pr-2 rlist flex flex-col w-auto bg-white divide-y divide-gray-200 backdrop-blur-md bg-white/30 text-left"
+                Style="padding-left: 10px;
+                top:50%;
+                transform:translateY(-47%)">
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#关于项目">关于项目</a>
+                </div>
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#设计背景">项目背景</a>
+                </div>
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#设计挑战陈述">设计挑战陈述</a>
+                </div>
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#用户研究">用户研究</a>
+                </div>
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#设计洞察">设计洞察</a>
+                </div>
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#信息架构">信息架构</a>
+                </div>
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#概念探索">概念探索</a>
+                </div>
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#设计与迭代">设计与迭代</a>
+                </div>
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#最终交付设计">最终交付设计</a>
+                </div>
+                <div class="p-1 flex-auto transition duration-500 ease-in-out hover:text-white hover:bg-opmainblue hover:underline ">
+                    <a href="#总结与反思">总结与反思</a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--footer-->
+        <footer class="body-font bg-opdark py-5 px-28" id="footer">
+            <div class="container px-28 py-8 flex flex-col">
+                <span class="text-3xl pfsemibold text-white sm:ml-4 sm:py-2 sm:mt-0 mt-4">
+                    <span class="duration-500 ease-in-out leading-relaxed hover:text-opgrey4">
+                        <a href="zly2050957835@gmail.com">Let's chat!☕</a>
+                    </span><br>View more 
+                    <span class="duration-500 ease-in-out text-opred2 leading-relaxed hover:text-white">
+                        <a href="./index.html">works</a></span>✨
+                </span><br>
+                <span class="inline-flex sm:flex-row justify-center sm:justify-start">
+                    <a class="footer-logo flex title-font font-medium items-center md:justify-start justify-center text-gray-800"
+                        href="./index.html">
+                    <span class="ml-3 text-xl text-white duration-500 ease-in-out leading-relaxed hover:text-opgrey4">Louisa Zhang
+                    </span></a>
+                    <p class="text-sm text-gray-200 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+                        ©2023 Made with love —
+                        <a href="mailto: zly2050957835@gmail.com" class="text-gray-200 ml-1 duration-500 ease-in-out leading-relaxed hover:text-opgrey4" rel="noopener noreferrer"
+                        target="_blank">zly2050957835@gmail.com</a>
+                    </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 px-8 justify-center sm:justify-start">
+                    <ul class="flex items-center">
+                        <a class="ml-5 text-white" href="https://github.com/uxrishu" target="_blank">
+                            <span class=" text-xl"><i class="fa-brands fa-github"></i></span>
+                        </a>
+                        <a class="ml-5 text-white" href="https://www.linkedin.com/in/uxrishu/" target="_blank">
+                            <span class="text-xl"><i class="fa-brands fa-linkedin-in"></i> </span>
+                        </a>
+                    </ul>
+                </span>
+            </div>
+        </footer>
+        
+
+
+        <script>
+            $(document).ready(function () {
+
+                var w1 = $('.nav').width()
+
+                $('#js-width').css({ 'width': screen.width, 'margin-left': -280 });
+                $('#js-width1').css({ 'width': screen.width, 'margin-left': -280 });
+                $('#js-width2').css({ 'width': screen.width, 'margin-left': -280 });
+
+                var $sections = $('.container'); //选取容器
+                var inScreen = 100; //进入屏幕100px后高亮
+                var outScreen = 100; //距离滚出屏幕还有200px时取消高亮
+
+                function scrollactive() {
+                    $sections.each(function (idx, $sec) {
+                        // console.log($sec)
+                        var $sec = $($sec);
+                        var wHeight = $(window).height(); //获取窗口的高度
+                        var sHeight = $sec.height(); //获取元素的高度
+                        var wScroll = $(window).scrollTop(); //获取窗口距离网页顶部的高度
+                        var sScroll = $sec.offset().top; //获取元素距离顶部的高度
+                        var wTop = wScroll + wHeight - inScreen; //窗口底部距离网页顶端的高度
+                        var sTop = sScroll + sHeight - outScreen; //元素底部距离网页顶端的高度
+
+                        //给当前所有在浏览器窗口内显示的菜单及其容器添加高亮样式
+                        //只高亮一个菜单
+                        var w;
+                        if (sHeight < wHeight) {
+                            w = wHeight - sHeight; //屏幕与元素间的高度差
+                        } else {
+                            w = 1; //防止滚动条默认偏移
+                        };
+                        if (sScroll - w < wScroll) {  //判断元素顶部是否在窗口中
+                            var idn = $sec.attr('id');
+                            $('.nav .p-1').removeClass('active');
+                            $('.nav a[href=' + '"#' + idn + '"]').parent().addClass('active');
+                        };
+
+                    });
+                };
+                scrollactive();
+
+                //滚动浏览器触发事件
+                $(window).scroll(function () {
+                    scrollactive();
+                });
+
+                //锚点平滑滚动
+                $('.nav a').click(function () {
+                    $('html, body').animate({
+                        scrollTop: ($($(this).attr('href')).offset().top - 30) + 'px'
+                    }, {
+                        duration: 400,
+                        easing: 'swing'
+                    });
+                    return false;
+                });
+
+            });
+
+
+        </script>
+
+
+</body>
+
+</html>
