@@ -1,9 +1,20 @@
+/* HeptaSlab字体定义 */
+@font-face {
+  font-family: "HeptaSlab-Regular";
+  src: url(../Fonts/Hepta_Slab/static/HeptaSlab-Regular.ttf);
+  font-display: swap; /* 使用备用字体直到自定义字体加载完成 */
+}
 .font1 {
-  font-family: 'Hepta Slab', serif; /* Hepta Slab Regular */
+  font-family: "HeptaSlab-Regular", serif; /* 在此添加合适的备用字体 */
 }
 
+@font-face {
+  font-family: "HeptaSlab-SemiBold";
+  src: url(../Fonts/Hepta_Slab/static/HeptaSlab-SemiBold.ttf);
+  font-display: swap;
+}
 .font2 {
-  font-family: 'Hepta Slab', serif; /* Hepta Slab SemiBold */
+  font-family: "HeptaSlab-SemiBold", serif; /* 在此添加合适的备用字体 */
 }
 
 /* 苹方字体部分保持不变 */
