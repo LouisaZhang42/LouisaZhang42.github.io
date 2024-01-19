@@ -1,50 +1,39 @@
+/* HeptaSlab字体定义 */
 @font-face {
   font-family: "HeptaSlab-Regular";
   src: url(../Fonts/Hepta_Slab/static/HeptaSlab-Regular.ttf);
+  font-display: swap; /* 使用备用字体直到自定义字体加载完成 */
 }
 .font1 {
-  font-family: "HeptaSlab-Regular";
+  font-family: "HeptaSlab-Regular", serif; /* 在此添加合适的备用字体 */
 }
 
 @font-face {
   font-family: "HeptaSlab-SemiBold";
   src: url(../Fonts/Hepta_Slab/static/HeptaSlab-SemiBold.ttf);
+  font-display: swap;
 }
 .font2 {
-  font-family: "HeptaSlab-SemiBold";
+  font-family: "HeptaSlab-SemiBold", serif; /* 在此添加合适的备用字体 */
 }
 
-@font-face {
-  font-family: "pflight";
-  src: url(../Fonts/pingfang_sc/苹方黑体-细-简.ttf);
-}
+/* 直接使用系统中的苹方字体 */
 .pflight {
-  font-family: "pflight";
+  font-family: "PingFang SC", "pflight", sans-serif;
 }
 
-@font-face {
-  font-family: "pfregular";
-  src: url(../Fonts/Pingfang_sc/苹方黑体-准-简.ttf);
-}
 .pfregular {
-  font-family: "pfregular";
+  font-family: "PingFang SC", "pfregular", sans-serif;
 }
 
-@font-face {
-  font-family: "pfmid";
-  src: url(../Fonts/OTF/Satoshi-Medium.otf);
-}
 .pfmid {
-  font-family: "pfmid";
+  font-family: "PingFang SC", "pfmid", sans-serif;
 }
 
-@font-face {
-  font-family: "pfsemibold";
-  src: url(../Fonts/Pingfang_sc/苹方黑体-中黑-简.ttf);
-}
 .pfsemibold {
-  font-family: "pfsemibold";
+  font-family: "PingFang SC", "pfsemibold", sans-serif;
 }
+
 
 /* 响应式字体大小 */
 /* 小屏幕（例如手机） */
