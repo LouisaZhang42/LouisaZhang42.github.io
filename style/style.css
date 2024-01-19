@@ -1,23 +1,12 @@
-/* HeptaSlab字体定义 */
-@font-face {
-  font-family: "HeptaSlab-Regular";
-  src: url(../Fonts/Hepta_Slab/static/HeptaSlab-Regular.ttf);
-  font-display: swap; /* 使用备用字体直到自定义字体加载完成 */
-}
 .font1 {
-  font-family: "HeptaSlab-Regular", serif; /* 在此添加合适的备用字体 */
+  font-family: 'Hepta Slab', serif; /* Hepta Slab Regular */
 }
 
-@font-face {
-  font-family: "HeptaSlab-SemiBold";
-  src: url(../Fonts/Hepta_Slab/static/HeptaSlab-SemiBold.ttf);
-  font-display: swap;
-}
 .font2 {
-  font-family: "HeptaSlab-SemiBold", serif; /* 在此添加合适的备用字体 */
+  font-family: 'Hepta Slab', serif; /* Hepta Slab SemiBold */
 }
 
-/* 直接使用系统中的苹方字体 */
+/* 苹方字体部分保持不变 */
 .pflight {
   font-family: "PingFang SC", "pflight", sans-serif;
 }
@@ -33,7 +22,6 @@
 .pfsemibold {
   font-family: "PingFang SC", "pfsemibold", sans-serif;
 }
-
 
 /* 响应式字体大小 */
 /* 小屏幕（例如手机） */
